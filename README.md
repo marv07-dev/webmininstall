@@ -4,7 +4,7 @@ This Bash script automates the installation of **Webmin** on Debian- or Ubuntu-b
 
 ---
 
-## 📋 Features
+## Features
 
 - Root permission check
 - OS compatibility verification (supports only Debian/Ubuntu)
@@ -15,14 +15,14 @@ This Bash script automates the installation of **Webmin** on Debian- or Ubuntu-b
 
 ---
 
-## 🚀 Usage
+ 
 
-> ⚠️ **Run as root!**  
+>  **Run as root!**  
 > The script must be executed with root privileges.
 
 ### Download and execute:
 
 ```bash
-wget https://your-repo-url.com/webmin-install.sh
-chmod +x webmin-install.sh
-sudo ./webmin-install.sh
+wget https://github.com/marv07-dev/webmininstall/blob/main/install_webmin.sh
+chmod +x install_webmin.sh
+sudo ./install_webmin.sh
