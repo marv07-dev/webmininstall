@@ -94,6 +94,6 @@ systemctl enable --now webmin
 # -----------------------------------------------------------------------------
 # 10. Success message
 # -----------------------------------------------------------------------------
-echo -e "${GREEN}Webmin wurde erfolgreich installiert!${RESET}"
-echo -e "${GREEN}Greife jetzt via https://<SERVER‑IP>:10000 auf Webmin zu.${RESET}"
-echo -e "${GREEN}Melde dich mit deinen Root‑ oder Admin‑Zugangsdaten an.${RESET}"
+echo -e "${GREEN}Webmin is installed successfully!${RESET}"
+echo -e "${GREEN}You can connect to Webmin on https://<SERVER‑IP>:10000 ${RESET}"
+echo -e "${GREEN}Login with your root or admin credentials.${RESET}"
